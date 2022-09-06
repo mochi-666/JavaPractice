@@ -1,0 +1,12 @@
+package 練習;
+  public class java7 {
+    public static void main(String[] args) {
+    	int num = (int)(Math.random()*10)+1;
+    	  System.out.println(num);
+    	if (num >= 5);
+    	  System.out.println("５以上です");
+        } else if (num < 5) {
+        	System.out.println("5未満です");
+        }
+    }
+}
