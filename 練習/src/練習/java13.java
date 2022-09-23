@@ -1,0 +1,15 @@
+package 練習;
+
+public class java13 {
+  public static void main(String[] args) {
+	  int i = (int)(Math.random()*3)+1;
+	  System.out.println(i);
+	  if (i == 1){
+	  System.out.println("グー");
+	  }else if (i == 2){
+	  System.out.println("チョキ");
+	  }else if (i == 3){
+	  System.out.println("パー");
+	  }
+  }
+}
